@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Api</name>
+    </assembly>
+    <members>
+        <member name="M:Api.Controllers.CuradoController.Get">
+            <summary>
+            Esta Função consulta todos os registros de Curados
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Api.Controllers.CuradoController.Get(System.String)">
+            <summary>
+            Esta Função consulta os registros de curados por CPF informado
+            </summary>
+            <remarks>
+            Campo CPF de ser informado para a consulta
+            </remarks>
+        </member>
+        <member name="M:Api.Controllers.CuradoController.Atualizar_end(System.String,System.String)">
+            <summary>
+            Esta Função altera somente o endereço do curado
+            </summary>
+            <remarks>
+            Campo CPF de ser informado para atualizar as informações
+            </remarks>
+        </member>
+        <member name="M:Api.Controllers.CuradoController.Create(Api.Data.Collections.CuradoDtoinput)">
+            <summary>
+            Esta Função para criar um novo registro de curado
+            </summary>
+            <remarks>
+            Os campos CPF, Nome completo, Data nascimento e Endereço completo são Obrigatorios
+            </remarks>
+        </member>
+        <member name="M:Api.Controllers.CuradoController.Update(System.String,Api.Data.Collections.CuradoDto)">
+            <summary>
+            Esta Função Atualizará todos os campos do registro Curado
+            </summary>
+            <remarks>
+            Os campos CPF, Nome completo, Data nascimento e Endereço completo são Obrigatorios
+            </remarks>
+        </member>
+        <member name="M:Api.Controllers.CuradoController.Delete(System.String)">
+            <summary>
+            Esta Função excluirá o registro do Curado
+            </summary>
+            <remarks>
+            O campo CPF deve ser Informado
+            </remarks>
+        </member>
+        <member name="M:Api.Controllers.InfectadoController.Get">
+            <summary>
+            Esta Função consulta todos os registros de invectados
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Api.Controllers.InfectadoController.Get(System.String)">
+            <summary>
+            Esta Função consulta os registros de invectados por CPF informado
+            </summary>
+            <remarks>
+            Campo CPF de ser informado para a consulta
+            </remarks>
+        </member>
+        <member name="M:Api.Controllers.InfectadoController.Atualizar_end(System.String,System.String)">
+            <summary>
+            Esta Função altera somente o endereço do infectado
+            </summary>
+            <remarks>
+            Campo CPF de ser informado para atualizar as informações
+            </remarks>
+        </member>
+        <member name="M:Api.Controllers.InfectadoController.Create(Api.Models.InfectadoDto_input)">
+            <summary>
+            Esta Função para criar um novo registro de infectado
+            </summary>
+            <remarks>
+            Os campos CPF, Nome completo, Data nascimento e Endereço completo são Obrigatorios
+            </remarks>
+        </member>
+        <member name="M:Api.Controllers.InfectadoController.Update(System.String,Api.Models.InfectadoDto)">
+            <summary>
+            Esta Função Atualizará todos os campos do registro infectados
+            </summary>
+            <remarks>
+            Os campos CPF, Nome completo, Data nascimento e Endereço completo são Obrigatorios
+            </remarks>
+        </member>
+        <member name="M:Api.Controllers.InfectadoController.Delete(System.String)">
+            <summary>
+            Esta Função excluirá o registro de infectado
+            </summary>
+            <remarks>
+            O campo CPF deve ser Informado
+            </remarks>
+        </member>
+    </members>
+</doc>
